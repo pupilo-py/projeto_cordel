@@ -2,7 +2,7 @@
 @import url(root.css);
 
 .parallax-image {
-    background: var(--cor-1) center center fixed no-repeat;
+    background: var(--cor-1) right center fixed no-repeat;
     background-size: cover;
     box-shadow: inset 6px 6px 13px 0px var(--cor-2);
     color: var(--cor-1);
@@ -42,8 +42,8 @@ header, footer {
     background: var(--cor-3);
 }
 
-p, strong, li{
-    font-size: 1.2em;
+p, strong, li {
+    font-size: 0.9em;
 }
 
 header {
@@ -54,8 +54,8 @@ header {
 header > h1 {
     font-family: var(--fonte-2);
     font-variant: small-caps;
-    font-size: 3.6em;
-    margin: 0 20px 20px;
+    font-size: 2.7em;
+    margin: 0 20px 16px;
 }
 
 main {
@@ -67,11 +67,11 @@ main {
 main > div {
     background: var(--cor-1);
     color: var(--cor-3);
-    padding: 20px;
+    padding: 12vh 0 12vh 20px;
 }
 
 main > div > p {
-    line-height: 1.5em;
+    line-height: 2em;
     padding: 20px;
 }
 
@@ -103,20 +103,20 @@ footer > ul#contact-list > li {
 
 @media (min-width: 426px) {
     header > h1 {
-        font-size: 5em;
+        font-size: 3.6em;
     }
 
-    p {
-        font-size: 1.6em;
+    p, strong, li {
+        font-size: 1.2em;
     }
 }
 
 @media (min-width: 769px) {
     header > h1 {
-        font-size: 6em;
+        font-size: 4.5em;
     }
 
     p {
-        font-size: 2em;
+        font-size: 1.5em;
     }
 }
