@@ -1,0 +1,109 @@
+@charset "UTF-8";
+@import url(root.css);
+
+.parallax-image {
+    background: var(--cor-1) center center fixed no-repeat;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px var(--cor-2);
+    color: var(--cor-1);
+}
+
+.parallax-image > p {
+    background-color: var(--cor-2);
+    text-shadow: 1px 1px var(--cor-3);
+    width: fit-content;
+}
+
+#image-1 {
+    background-image: var(--parallax-fundo-1);
+}
+
+#image-2 {
+    background-image: var(--parallax-fundo-2);
+}
+
+.link {
+    font-weight: bold;
+    color: var(--cor-1);
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+body {
+    background: var(--imagem-fundo) left center;
+    color: var(--cor-1);
+    font-family: var(--fonte-1);
+}
+
+header, footer {
+    background: var(--cor-3);
+}
+
+header {
+    text-align: center;
+    padding: 50px 0;
+}
+
+header > h1 {
+    font-family: var(--fonte-2);
+    font-variant: small-caps;
+    font-size: 3em;
+    margin: 0 20px 20px;
+}
+
+
+main {
+    font-family: var(--fonte-3);
+    max-width: 800px;
+    margin: auto;
+}
+
+main > div {
+    background: var(--cor-1);
+    color: var(--cor-3);
+    padding: 20px;
+}
+
+main > div > p {
+    line-height: 1.5em;
+    padding: 20px;
+}
+
+main > div > p:nth-child(2) {
+    padding-top: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer > strong {
+    display: inline-block;
+    margin: 10px 0;
+}
+
+footer > ul#contact-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 220px;
+    margin: auto;
+    list-style: none;
+}
+
+footer > ul#contact-list > li {
+    margin: 10px 0;
+}
+
+@media (min-width: 800px) {
+    header > h1 {
+        font-size: 5em;
+    }
+
+    p {
+        font-size: 1.3em;
+    }
+}

@@ -1,0 +1,33 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Passion One';
+    src: url(../fonts/PassionOne-Regular.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Sriracha';
+    src: url(../fonts/Sriracha-Regular.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --imagem-fundo:     url(../images/background.jpg);
+    --parallax-fundo-1: url(../images/parallax-1.jpg);
+    --parallax-fundo-2: url(../images/parallax-2.jpg);
+
+    --cor-1: hsl(0, 0%, 100%);
+    --cor-2: hsla(0, 0%, 0%, 0.5);
+    --cor-3: hsl(0, 0%, 0%);
+    
+    --fonte-1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte-2: 'Passion One', cursive;
+    --fonte-3: 'Sriracha', cursive;
+}
