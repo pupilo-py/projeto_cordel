@@ -1,0 +1,46 @@
+@charset "UTF-8";
+@import url(root.css);
+
+body {
+    font-family: var(--fonte-4);
+}
+
+header {
+    text-align: center;
+    margin: 0 0 20px;
+    padding: 40px 0;
+}
+
+header > h1 {
+    font-size: 2.3em;
+    margin-bottom: 20px;
+}
+
+header a {
+    font-weight: bold;
+    color: unset;
+    text-decoration: none;
+}
+
+p {
+    font-size: 1.3em;
+}
+
+main {
+    columns: 2;
+    width: fit-content;
+    margin: auto;
+}
+
+main > div:first-child > p:first-child {
+    margin-top: 0;
+}
+
+main p {
+    margin: 1em 0;
+    line-height: 1.5em;
+}
+
+footer {
+    display: none;
+}
